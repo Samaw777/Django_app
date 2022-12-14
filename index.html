@@ -1,0 +1,103 @@
+{%extends 'partials/base.html'%} 
+{% block title %} home{% endblock %}
+
+{% block content %} 
+
+<div class="container">
+    <div class="row mt-2">
+        <div class="col-md-8 offset-md-3">
+            <div class="card shadow">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<br>
+<br><br>
+<br><br>
+
+<label for="Team"><strong> <h3>Home team:</h3></strong></label>
+<select name="Team" id="Team">
+  <option value="AZ">Arizona Cardinals</option>
+  <option value="ATL">Atlanta Falcons</option>
+  <option value="BaL">Baltimore Ravens</option>
+  <option value="Bills">Buffalo Bills</option>
+  <option value="Panth">  Carolina Panthers</option>
+  <option value="Bear">  Chicago Bears</option>
+  <option value="Beng">  Cincinnati Bengals</option>
+  <option value="Brown">  Cleveland Browns</option>
+  <option value="Cow">  Dallas Cowboys</option>
+  <option value="Bronc">  Denver Broncos</option>
+  <option value="Det">  Detroit Lions</option>
+  <option value="Pack">  Green Bay Packers</option>
+  <option value="Tex">  Houston Texans</option>
+  <option value="Colts">  Indianapolis Colts</option>
+  <option value="Jag">  Jacksonville Jaguars</option>
+  <option value="Chief">  Kansas City Chiefs</option>
+  <option value="Vike"> <selected>Minnesota Vikings</selected></option>
+  <option value="pat">  New England Patriots</option>
+  <option value="Gaints">    New York Giants</option>
+  <option value="Jets">  New York Jets</option>
+  <option value="Raid">  Oakland Raiders</option>
+  <option value="Eag">  Philadelphia Eagles</option>
+  <option value="Stee">  Pittsburgh Steelers</option>
+  <option value="Charg">Los Angeles Chargers</option>
+  <option value="Saf">  San Francisco 49ers</option>
+  <option value="Sea">  Seattle Seahawks</option>
+  <option value="Rams">   LA Rams</option>
+  <option value="Bucc">  Tampa Bay Buccaneers</option>
+  <option value="Pack">  Green Bay Packers</option>
+  <option value="Tenn">  Tennessee Titans</option>
+  <option value="WA">Washington commanders</option>
+</select> 
+  
+
+<label for="ATeam"><strong> <h3>Away team:</h3></strong></label>
+<select name="ATeam" id="ATeam">
+  <option value="AZ">Arizona Cardinals</option>
+  <option value="ATL">Atlanta Falcons</option>
+  <option value="BaL">Baltimore Ravens</option>
+  <option value="Bills">Buffalo Bills</option>
+  <option value="Panth">  Carolina Panthers</option>
+  <option value="Bear">  Chicago Bears</option>
+  <option value="Beng">  Cincinnati Bengals</option>
+  <option value="Brown">  Cleveland Browns</option>
+  <option value="Cow">  Dallas Cowboys</option>
+  <option value="Bronc">  Denver Broncos</option>
+  <option value="Det">  Detroit Lions</option>
+  <option value="Pack">  Green Bay Packers</option>
+  <option value="Tex">  Houston Texans</option>
+  <option value="Colts">  Indianapolis Colts</option>
+  <option value="Jag">  Jacksonville Jaguars</option>
+  <option value="Chief">  Kansas City Chiefs</option>
+  <option value="Vike"> <selected>Minnesota Vikings</selected></option>
+  <option value="pat">  New England Patriots</option>
+  <option value="Gaints">    New York Giants</option>
+  <option value="Jets">  New York Jets</option>
+  <option value="Raid">  Oakland Raiders</option>
+  <option value="Eag">  Philadelphia Eagles</option>
+  <option value="Stee">  Pittsburgh Steelers</option>
+  <option value="Charg">  San Diego Chargers</option>
+  <option value="Saf">  San Francisco 49ers</option>
+  <option value="Sea">  Seattle Seahawks</option>
+  <option value="Rams">   LA Rams</option>
+  <option value="Bucc">  Tampa Bay Buccaneers</option>
+  <option value="Pack">  Green Bay Packers</option>
+  <option value="Tenn">  Tennessee Titans</option>
+  <option value="WA">Washington commanders</option>
+</select> 
+<br>
+<br>
+
+<input type="submit" value='Get Predictions'>
+</form>
+</body>
+</html>
+<br>
+<br>
+{% endblock %}
